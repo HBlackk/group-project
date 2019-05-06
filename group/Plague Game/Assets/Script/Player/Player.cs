@@ -17,14 +17,15 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         healthSystem = new HealthSystem(100);
         flees = 10;
+        healthSystem.Dammage(10);
     }
 
     // Update is called once per frame
     void Update()
     {
+        transform.Find("HealthBar").localScale = new Vector3(healthSystem.GetHealth(), 1);
         dirX = Input.GetAxis("Horizontal") * moveSpeed;
         dirY = Input.GetAxis("Vertical") * moveSpeed;
-
         if (healthSystem.GetHealth() <= 0)
             Destroy(gameObject);
     }

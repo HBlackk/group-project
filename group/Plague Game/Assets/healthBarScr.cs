@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class healthBarScr : MonoBehaviour
+public class HealthBarScr : MonoBehaviour
+{ 
+    private HealthSystem healthSystem;
 
-{
-    // Start is called before the first frame update
-    void Start()
+    public void Setup (HealthSystem healthSystem)
     {
-        
+        this.healthSystem = healthSystem;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.Find("HealthBar").localScale = new Vector3(healthSystem.GetHealth(), 1);
     }
 }
