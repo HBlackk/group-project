@@ -8,13 +8,14 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     float dirX, dirY;
     float moveSpeed = 5f;
-    public static float healthAmount;
+    public static int flees;
 
     // Use this for initialization
     void Start()
     {
-        healthAmount = 1;
         rb = GetComponent<Rigidbody2D>();
+        HealthSystem healthSystem = new HealthSystem(100);
+        flees = 10;
     }
 
     // Update is called once per frame
