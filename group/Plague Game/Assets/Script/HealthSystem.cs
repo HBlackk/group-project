@@ -18,9 +18,9 @@ public class HealthSystem
         return currentHealth;
     }
 
-    public int GetHealthPercent()
+    public float GetHealthPercent()
     {
-        return currentHealth / maxHealth;
+        return (float) currentHealth / maxHealth;
     }
 
     public void Dammage(int damAmount)
@@ -35,3 +35,4 @@ public class HealthSystem
         if (currentHealth > maxHealth) currentHealth = maxHealth;
     }
 }
+//https://www.youtube.com/watch?v=0T5ei9jN63M
