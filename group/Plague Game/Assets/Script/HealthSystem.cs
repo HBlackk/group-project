@@ -18,6 +18,11 @@ public class HealthSystem
         return currentHealth;
     }
 
+    public int GetHealthPercent()
+    {
+        return currentHealth / maxHealth;
+    }
+
     public void Dammage(int damAmount)
     {
         currentHealth -= damAmount;

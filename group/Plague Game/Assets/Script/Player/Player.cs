@@ -9,12 +9,13 @@ public class Player : MonoBehaviour
     float dirX, dirY;
     float moveSpeed = 5f;
     public static int flees;
+    private HealthSystem healthSystem;
 
     // Use this for initialization
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        HealthSystem healthSystem = new HealthSystem(100);
+        healthSystem = new HealthSystem(100);
         flees = 10;
     }
 
@@ -24,7 +25,7 @@ public class Player : MonoBehaviour
         dirX = Input.GetAxis("Horizontal") * moveSpeed;
         dirY = Input.GetAxis("Vertical") * moveSpeed;
 
-        if (healthAmount <= 0)
+        if (healthSystem.GetHealth() <= 0)
             Destroy(gameObject);
     }
 
@@ -36,7 +37,7 @@ public class Player : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name.Equals("Fire"))
-            healthAmount -= 0.1f;
+            healthSystem.Dammage(10);
     }
 
 }
