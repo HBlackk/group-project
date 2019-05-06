@@ -42,4 +42,5 @@ public class Player : MonoBehaviour
             healthAmount -= 0.1f;
     }
 
+
 }
