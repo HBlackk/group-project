@@ -9,15 +9,11 @@ public class Player : MonoBehaviour
     float dirX, dirY;
     float moveSpeed = 5f;
     public static float healthAmount;
-    public static int flees;
 
     // Use this for initialization
     void Start()
     {
-        HealthSystem healthSystem = new HealthSystem(100);
-        //Debug.Log("health: "+healthSystem.GetHealth());
-
-        flees = 10;
+        healthAmount = 1;
         rb = GetComponent<Rigidbody2D>();
     }
 
