@@ -21,7 +21,8 @@ public class Player : MonoBehaviour
     public bool grounded;
     public float groundedcircle;
     public LayerMask wground;
-
+    public GameObject fleathrow;
+    public Transform throwArea;
     public GameObject currenttalk = null;
     public talk current = null;
     public GameObject flea;
@@ -67,6 +68,15 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(jump) && grounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpp);
+        }
+
+        if(Input.GetKeyDown(throwflea))
+        {
+            if(FleaCount.count > 0)
+            {
+                Instantiate(fleathrow, throwArea.position, throwArea.rotation);
+                FleaCount.count = FleaCount.count - 1;
+            }            
         }
 
         if(rb.velocity.x < 0)
