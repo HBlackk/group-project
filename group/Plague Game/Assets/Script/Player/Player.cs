@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-    Rigidbody2D rb;
+    
     float dirX, dirY;
-    float moveSpeed = 5f;
+    public float moveSpeed;
+    public float jumpp;
+    private Rigidbody2D rb;
     public static int flees;
     private HealthSystem healthSystem;
+
+    public KeyCode left;
+    public KeyCode right;
+    public KeyCode jump;
+    public KeyCode throwflea;
+
+    public Transform groundcheck;
+    public bool grounded;
+    public float groundedcircle;
+    public LayerMask wground;
 
     public GameObject currenttalk = null;
     public talk current = null;
@@ -26,23 +37,50 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        grounded = Physics2D.OverlapCircle(groundcheck.position, groundedcircle, wground);
+
         transform.Find("HealthBar").localScale = new Vector3(healthSystem.GetHealth(), 1);
-        dirX = Input.GetAxis("Horizontal") * moveSpeed;
-        dirY = Input.GetAxis("Vertical") * moveSpeed;
+        //dirX = Input.GetAxis("Horizontal") * moveSpeed;
+        //dirY = Input.GetAxis("Vertical") * moveSpeed;
         if (healthSystem.GetHealth() <= 0)
             Destroy(gameObject);
 
-        if (Input.GetKey("e") && currenttalk)
+        /*if (Input.GetKey("e") && currenttalk)
             if (current.talks)
             {
                 current.Talk();
-            }
+            }*/
+        if(Input.GetKey(left))
+        {
+            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+        }
+        else if(Input.GetKey(right))
+        {
+            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
 
+        if(Input.GetKeyDown(jump) && grounded)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpp);
+        }
+
+        if(rb.velocity.x < 0)
+        {
+            transform.localScale = new Vector3(-0.35f, 0.28f, 1);
+        }
+        else if(rb.velocity.x > 0)
+        {
+            transform.localScale = new Vector3(0.35f, 0.28f, 1);
+        }
     }
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(dirX, dirY);
+        //rb.velocity = new Vector2(dirX, dirY);
     }
     
     /*void OnTriggerEnter2D(Collider2D col)

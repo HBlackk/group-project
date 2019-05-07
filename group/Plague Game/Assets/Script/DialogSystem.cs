@@ -23,7 +23,7 @@ public class DialogSystem : MonoBehaviour
     {
         if(other.gameObject.name == "player")
         {
-            if(Input.GetKeyUp(KeyCode.E))
+            if(Input.GetKeyUp(KeyCode.F))
             {
                 rat.ShowBox(dialogue);
             }
