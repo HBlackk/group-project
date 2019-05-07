@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
 
     public GameObject currenttalk = null;
     public talk current = null;
+    public GameObject flea;
 
     // Use this for initialization
     void Start()
@@ -100,6 +101,12 @@ public class Player : MonoBehaviour
             Debug.Log(other.name);
             currenttalk = other.gameObject;
             current = currenttalk.GetComponent <talk>();
+        }
+
+        if (other.tag.Equals("Flea"))
+        {
+            FleaCount.count += 10;
+            Destroy(other.gameObject);
         }
     }
 }
