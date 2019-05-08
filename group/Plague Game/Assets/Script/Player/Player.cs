@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
     public float jumpp;
     private Rigidbody2D rb;
     public static int flees;
-    private HealthSystem healthSystem;
 
     public KeyCode left;
     public KeyCode right;
@@ -27,13 +26,18 @@ public class Player : MonoBehaviour
     public talk current = null;
     public GameObject flea;
 
+    public HealthSystem healthSystem;
+    public Transform pfHealthBar;
+
     // Use this for initialization
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        healthSystem = new HealthSystem(100);
         flees = 10;
-        healthSystem.Dammage(10);
+
+        healthSystem = new HealthSystem(100);
+        HealthBarScr healthBar = pfHealthBar.GetComponent<HealthBarScr>();
+        healthBar.Setup(healthSystem);
     }
 
     // Update is called once per frame
@@ -41,11 +45,9 @@ public class Player : MonoBehaviour
     {
         grounded = Physics2D.OverlapCircle(groundcheck.position, groundedcircle, wground);
 
-        transform.Find("HealthBar").localScale = new Vector3(healthSystem.GetHealth(), 1);
+        //transform.Find("HealthBar").localScale = new Vector3(healthSystem.GetHealth(), 1);
         //dirX = Input.GetAxis("Horizontal") * moveSpeed;
         //dirY = Input.GetAxis("Vertical") * moveSpeed;
-        if (healthSystem.GetHealth() <= 0)
-            Destroy(gameObject);
 
         /*if (Input.GetKey("e") && currenttalk)
             if (current.talks)
@@ -102,11 +104,11 @@ public class Player : MonoBehaviour
     }*/
 
     void OnTriggerEnter2D(Collider2D other)
-    {
-        if (gameObject.name.Equals("Fire"))
+    { 
+        if (other.tag.Equals("A"))
         {
             healthSystem.Dammage(10);
-        }            
+        }
         if (other.CompareTag ("interObject"))
         {
             Debug.Log(other.name);

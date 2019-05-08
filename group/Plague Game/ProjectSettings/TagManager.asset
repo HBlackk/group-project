@@ -7,6 +7,8 @@ TagManager:
   - interObject
   - Coin
   - Flea
+  - A
+  - thrownFlea
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - 
   - Ground
   - 
-  - 
+  - A
   - Background
   - Player
   - Flea
