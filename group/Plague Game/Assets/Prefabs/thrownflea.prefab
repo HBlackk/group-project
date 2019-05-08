@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flea_effect: {fileID: 496652520143522208, guid: fa614b85f58874d429367c267f818c20,
     type: 3}
-  fleaSpeed: 30
+  fleaSpeed: 50
 --- !u!50 &5122295081353585078
 Rigidbody2D:
   serializedVersion: 4

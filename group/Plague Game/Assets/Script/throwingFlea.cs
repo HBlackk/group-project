@@ -22,7 +22,7 @@ public class throwingFlea : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Instantiate(flea_effect, transform.position, transform.rotation);
+        Instantiate(flea_effect, transform.position, transform.rotation);        
         Destroy(gameObject);
     }
 }

@@ -74,7 +74,8 @@ public class Player : MonoBehaviour
         {
             if(FleaCount.count > 0)
             {
-                Instantiate(fleathrow, throwArea.position, throwArea.rotation);
+                GameObject fleaClone = (GameObject)Instantiate(fleathrow, throwArea.position, throwArea.rotation);
+                fleaClone.transform.localScale = transform.localScale;
                 FleaCount.count = FleaCount.count - 1;
             }            
         }
