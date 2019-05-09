@@ -38,8 +38,10 @@ public class projectile : MonoBehaviour {
 		if(other.CompareTag("Player"))
 		{
 			DestroyProjectile();
-		}
-	}	
+		}else if (!other.CompareTag("Enemy")){
+            Destroy(gameObject);
+        }
+    }	
 }	
 
 //player needs rigidbody2d and collider2d

@@ -105,6 +105,8 @@ public class Player : MonoBehaviour
 
         if (healthSystem.GetHealth() <= 0)
         {
+            var textArea = new Rect(0, 0, Screen.width, Screen.height);
+
             Destroy(gameObject);
             Application.Quit();
         }
