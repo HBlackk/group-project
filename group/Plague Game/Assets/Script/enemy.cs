@@ -55,6 +55,12 @@ public class enemy : MonoBehaviour
         {
             shot_time -= Time.deltaTime;
         }
+
+        if (healthSystem.GetHealth() <= 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -86,13 +92,12 @@ public class enemy : MonoBehaviour
         }
     }
 }
-	
-	
-	
+
+
+
 	//stopping dist should be 20
 	//retreat distance should be 10
-	
+
 	//start_shot_time == 1 in window
-	
+
 	//create prefab folder, put sprite in then prefab in window.
-	
