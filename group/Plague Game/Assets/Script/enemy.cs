@@ -39,7 +39,7 @@ public class enemy : MonoBehaviour
         }
         else if (Vector2.Distance(transform.position, player.position) < stop_dist && (Vector2.Distance(transform.position, player.position) > retreat_dist))
         {
-            transform.position = this.transform.position;
+            transform.position = this.transform.position.x;
         }
         else if (Vector2.Distance(transform.position, player.position) < retreat_dist)
         {
@@ -60,7 +60,6 @@ public class enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
