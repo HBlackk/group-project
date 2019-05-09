@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
 
     public HealthSystem healthSystem;
     public Transform pfHealthBar;
+    public int startHealth;
 
     // Use this for initialization
     void Start()
@@ -35,7 +36,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         flees = 10;
 
-        healthSystem = new HealthSystem(100);
+        healthSystem = new HealthSystem(startHealth);
         HealthBarScr healthBar = pfHealthBar.GetComponent<HealthBarScr>();
         healthBar.Setup(healthSystem);
     }
@@ -105,10 +106,11 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     { 
-        if (other.tag.Equals("A"))
+        if (other.tag.Equals("Projectile"))
         {
-            healthSystem.Dammage(10);
+            healthSystem.Dammage(5);
         }
+  
         if (other.CompareTag ("interObject"))
         {
             Debug.Log(other.name);

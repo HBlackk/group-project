@@ -9,6 +9,8 @@ TagManager:
   - Flea
   - A
   - thrownFlea
+  - Projectile
+  - Enemy
   layers:
   - Default
   - TransparentFX
