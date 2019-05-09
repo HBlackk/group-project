@@ -318,7 +318,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000019669533, y: -1.9963374}
+  m_Offset: {x: 0.5229609, y: 0.2586403}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -329,7 +329,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.0586634, y: 6.6773252}
+  m_Size: {x: 3.9668875, y: 13.248981}
   m_EdgeRadius: 0
 --- !u!50 &18660282
 Rigidbody2D:
@@ -351,7 +351,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &18660283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -415,7 +415,7 @@ MonoBehaviour:
   speed: 10
   stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -14232,7 +14232,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1222893810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14296,7 +14296,7 @@ MonoBehaviour:
   speed: 10
   stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -15354,7 +15354,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1324941981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15418,7 +15418,7 @@ MonoBehaviour:
   speed: 10
   stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -16857,7 +16857,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000019669533, y: -1.9963374}
+  m_Offset: {x: 0.7546423, y: 0.27819633}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -16868,7 +16868,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.0586634, y: 6.6773252}
+  m_Size: {x: 4.0462923, y: 13.248213}
   m_EdgeRadius: 0
 --- !u!50 &1439369166
 Rigidbody2D:
@@ -16890,7 +16890,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1439369167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16954,7 +16954,7 @@ MonoBehaviour:
   speed: 10
   stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 1
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -18192,7 +18192,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -18211,9 +18211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  stop_dist: 10
+  stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -19218,7 +19218,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000019669533, y: -1.9963374}
+  m_Offset: {x: 0.5647719, y: 0.0817821}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -19229,7 +19229,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.0586634, y: 6.6773252}
+  m_Size: {x: 4.9291587, y: 13.296532}
   m_EdgeRadius: 0
 --- !u!50 &1747234749
 Rigidbody2D:
@@ -19246,7 +19246,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -19328,9 +19328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  stop_dist: 15
-  retreat_dist: 5
-  start_shot_time: 2
+  stop_dist: 20
+  retreat_dist: 10
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -19417,7 +19417,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1748204818
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19481,7 +19481,7 @@ MonoBehaviour:
   speed: 10
   stop_dist: 20
   retreat_dist: 10
-  start_shot_time: 2
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
@@ -21707,7 +21707,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000019669533, y: -1.9963374}
+  m_Offset: {x: 0.7886317, y: 0.3133719}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -21718,7 +21718,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.0586634, y: 6.6773252}
+  m_Size: {x: 4.481439, y: 12.836569}
   m_EdgeRadius: 0
 --- !u!50 &2027165787
 Rigidbody2D:
@@ -21817,9 +21817,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  stop_dist: 15
-  retreat_dist: 5
-  start_shot_time: 2
+  stop_dist: 20
+  retreat_dist: 10
+  start_shot_time: 0.5
   player: {fileID: 0}
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
