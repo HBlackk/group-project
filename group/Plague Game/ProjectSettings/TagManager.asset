@@ -11,6 +11,7 @@ TagManager:
   - thrownFlea
   - Projectile
   - Enemy
+  - Fire
   layers:
   - Default
   - TransparentFX

@@ -15,6 +15,7 @@ public class HealthBarScr : MonoBehaviour
 
    private void HealthSystem_OnHealthChanged(object sender, EventArgs e)
     {
+        Debug.Log(healthSystem.GetHealthPercent());
         transform.Find("Bar").localScale = new Vector3(healthSystem.GetHealthPercent(), 1);
     }
 

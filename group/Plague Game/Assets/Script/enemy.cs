@@ -56,6 +56,11 @@ public class enemy : MonoBehaviour
             shot_time -= Time.deltaTime;
         }
 
+        if (healthSystem.GetHealth() <= 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     void OnTriggerEnter2D(Collider2D other)

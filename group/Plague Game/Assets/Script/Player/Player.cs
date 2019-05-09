@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public KeyCode right;
     public KeyCode jump;
     public KeyCode throwflea;
+    public KeyCode heal;
 
     public Transform groundcheck;
     public bool grounded;
@@ -83,13 +84,29 @@ public class Player : MonoBehaviour
             }            
         }
 
-        if(rb.velocity.x < 0)
+        if (Input.GetKeyDown(heal))
+        {
+            if (FleaCount.count >= 5)
+            {
+                FleaCount.count = FleaCount.count - 5;
+                healthSystem.Heal(50);
+            }
+        }
+
+        if (rb.velocity.x < 0)
         {
             transform.localScale = new Vector3(-0.35f, 0.28f, 1);
         }
         else if(rb.velocity.x > 0)
         {
             transform.localScale = new Vector3(0.35f, 0.28f, 1);
+        }
+
+
+        if (healthSystem.GetHealth() <= 0)
+        {
+            Destroy(gameObject);
+            Application.Quit();
         }
     }
 
@@ -110,6 +127,10 @@ public class Player : MonoBehaviour
         {
             healthSystem.Dammage(5);
         }
+        if (other.tag.Equals("Fire"))
+        {
+            healthSystem.Dammage(10);
+        }
   
         if (other.CompareTag ("interObject"))
         {
@@ -123,5 +144,6 @@ public class Player : MonoBehaviour
             FleaCount.count += 10;
             Destroy(other.gameObject);
         }
+
     }
 }
