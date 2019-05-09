@@ -35,7 +35,7 @@ public class enemy : MonoBehaviour
 
         if (Vector2.Distance(transform.position, player.position) > stop_dist)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(player.position.x, transform.position.y), speed * Time.deltaTime);
         }
         else if (Vector2.Distance(transform.position, player.position) < stop_dist && (Vector2.Distance(transform.position, player.position) > retreat_dist))
         {
@@ -43,7 +43,7 @@ public class enemy : MonoBehaviour
         }
         else if (Vector2.Distance(transform.position, player.position) < retreat_dist)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(player.position.x, transform.position.y), -speed * Time.deltaTime);
         }
 
         if (shot_time <= 0)
@@ -55,7 +55,6 @@ public class enemy : MonoBehaviour
         {
             shot_time -= Time.deltaTime;
         }
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
