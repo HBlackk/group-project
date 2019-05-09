@@ -19098,7 +19098,7 @@ MonoBehaviour:
   projectile: {fileID: 8236652751976073711, guid: 21888b00b4bc1474b8f25331010c05e7,
     type: 3}
   pfHealthBar: {fileID: 830110402}
-  startHealth: 0
+  startHealth: 100
 --- !u!1 &1748204814
 GameObject:
   m_ObjectHideFlags: 0
