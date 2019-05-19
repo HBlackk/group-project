@@ -26,6 +26,7 @@ public class DialogSystem : MonoBehaviour
             if(Input.GetKeyUp(KeyCode.F))
             {
                 rat.ShowBox(dialogue);
+                FleaCount.count += 3;
             }
         }
     }

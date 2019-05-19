@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 0
   stop_dist: 20
   retreat_dist: 10
@@ -847,8 +847,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -1288,8 +1288,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: That is not the correct answer!
 --- !u!1 &98466336
 GameObject:
@@ -2501,10 +2501,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f4b8d30ac5ed0f46ace40b5e080a97b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  pfHealthBar: {fileID: 6867022798413789645, guid: 14298fca72f92644c9700d10f2d222f4,
-    type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &218505843
 Transform:
   m_ObjectHideFlags: 0
@@ -3274,8 +3272,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &328844818
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3332,7 +3330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328844814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.46, y: -6.27, z: 0.35666}
+  m_LocalPosition: {x: 6.46, y: -6.08, z: 0.35666}
   m_LocalScale: {x: 2.0427308, y: 0.7534294, z: 1}
   m_Children: []
   m_Father: {fileID: 890192553}
@@ -3815,7 +3813,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.1909239, y: -4.5143204}
+  m_Offset: {x: -1.1909237, y: -4.4441895}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3826,7 +3824,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 16.518154, y: 9.871357}
+  m_Size: {x: 16.518154, y: 10.011619}
   m_EdgeRadius: 0
 --- !u!50 &390080432
 Rigidbody2D:
@@ -4199,7 +4197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.4885526}
+  m_Offset: {x: 0.0000038146973, y: -4.3675766}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4210,7 +4208,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 9.922896}
+  m_Size: {x: 15.043259, y: 10.164848}
   m_EdgeRadius: 0
 --- !u!50 &415029293
 Rigidbody2D:
@@ -4327,7 +4325,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.2644286, y: -4.372433}
+  m_Offset: {x: 1.2644286, y: -4.199159}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4338,7 +4336,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.514409, y: 10.155135}
+  m_Size: {x: 12.514409, y: 10.501683}
   m_EdgeRadius: 0
 --- !u!50 &420047675
 Rigidbody2D:
@@ -4500,8 +4498,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &420479555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5208,8 +5206,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: That is correct! Well Done!
 --- !u!1 &483000502
 GameObject:
@@ -5302,8 +5300,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &483000507
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5782,7 +5780,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.372433}
+  m_Offset: {x: 0.0000038146973, y: -4.376108}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5793,7 +5791,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 10.155135}
+  m_Size: {x: 15.043259, y: 10.147785}
   m_EdgeRadius: 0
 --- !u!50 &498057031
 Rigidbody2D:
@@ -6076,8 +6074,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e6c1ca5c381a514cb88a25bdc78ec09, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   mainplayer: {fileID: 1658855910}
   cameraLength: 35
 --- !u!20 &519420031
@@ -7169,8 +7167,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &619637250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7295,7 +7293,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.372433}
+  m_Offset: {x: 0.0000038146973, y: -4.6447215}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7306,7 +7304,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 10.155135}
+  m_Size: {x: 15.043259, y: 9.6105585}
   m_EdgeRadius: 0
 --- !u!50 &629590143
 Rigidbody2D:
@@ -7675,8 +7673,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &674040637
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7962,8 +7960,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &708900564
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8020,7 +8018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708900562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.15, y: -6.17, z: 0.35666}
+  m_LocalPosition: {x: -10.15, y: -6.08, z: 0.35666}
   m_LocalScale: {x: 2.133481, y: 0.7541571, z: 1}
   m_Children: []
   m_Father: {fileID: 421683354}
@@ -8164,8 +8162,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &714563227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9897,8 +9895,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2c63ff15f5cd8f4fa9278758e46cdfb, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   box: {fileID: 1606153364}
   text: {fileID: 1871536458}
   active: 0
@@ -10308,7 +10306,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.6134276}
+  m_Offset: {x: 0.0000038146973, y: -4.4622064}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10319,7 +10317,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 9.673146}
+  m_Size: {x: 15.043259, y: 9.975589}
   m_EdgeRadius: 0
 --- !u!50 &904020826
 Rigidbody2D:
@@ -12071,8 +12069,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: This is not the correct answer!
 --- !u!1 &1059390298
 GameObject:
@@ -12487,8 +12485,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: From China, the disease then spread across the silk road into the Middle
     East and Europe.
 --- !u!58 &1125905748
@@ -12616,8 +12614,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
   m_RaycastTarget: 1
@@ -12683,8 +12681,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: The plague started here in China, around 1330AD.
 --- !u!58 &1152104901
 CircleCollider2D:
@@ -12810,7 +12808,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.6134276}
+  m_Offset: {x: 0.0000038146973, y: -4.4084544}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12821,7 +12819,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 9.673146}
+  m_Size: {x: 15.043259, y: 10.083093}
   m_EdgeRadius: 0
 --- !u!50 &1153403755
 Rigidbody2D:
@@ -13303,7 +13301,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.2644286, y: -4.372433}
+  m_Offset: {x: 1.2644286, y: -4.199159}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13314,7 +13312,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.514409, y: 10.155135}
+  m_Size: {x: 12.514409, y: 10.501683}
   m_EdgeRadius: 0
 --- !u!50 &1176264374
 Rigidbody2D:
@@ -13431,7 +13429,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.372433}
+  m_Offset: {x: 0.0000038146973, y: -4.498036}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13442,7 +13440,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 10.155135}
+  m_Size: {x: 15.043259, y: 9.90393}
   m_EdgeRadius: 0
 --- !u!50 &1182567367
 Rigidbody2D:
@@ -13668,8 +13666,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1191487750
 GameObject:
   m_ObjectHideFlags: 0
@@ -13716,7 +13714,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0000038146973, y: -4.372433}
+  m_Offset: {x: 0.0000038146973, y: -4.4962006}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13727,7 +13725,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 15.043259, y: 10.155135}
+  m_Size: {x: 15.043259, y: 9.9076}
   m_EdgeRadius: 0
 --- !u!50 &1191487753
 Rigidbody2D:
@@ -14051,7 +14049,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2625463, y: -4.0749497}
+  m_Offset: {x: -0.2625463, y: -4.4214997}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -14062,7 +14060,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.3047137, y: 10.750102}
+  m_Size: {x: 7.3047137, y: 10.057002}
   m_EdgeRadius: 0
 --- !u!50 &1217781006
 Rigidbody2D:
@@ -14274,8 +14272,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 1
   stop_dist: 20
   retreat_dist: 10
@@ -14969,8 +14967,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1312462760
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15110,8 +15108,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: As many as 25 million Chinese poeple were killed by the plague in just
     15 years.
 --- !u!58 &1312989204
@@ -15176,7 +15174,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.0905409, y: -4.478146}
+  m_Offset: {x: 1.0905409, y: -4.65142}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15187,7 +15185,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.351107, y: 9.943709}
+  m_Size: {x: 9.351107, y: 9.597161}
   m_EdgeRadius: 0
 --- !u!50 &1315160484
 Rigidbody2D:
@@ -15399,8 +15397,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 0
   stop_dist: 20
   retreat_dist: 10
@@ -15746,8 +15744,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9676024, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -15788,8 +15786,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67e080a4caa46794bb7d644084fa6c3a, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1375521981
 GameObject:
   m_ObjectHideFlags: 0
@@ -16348,7 +16346,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -2.876226, y: -4.372433}
+  m_Offset: {x: -2.876226, y: -4.4962015}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -16359,7 +16357,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.374475, y: 10.155135}
+  m_Size: {x: 8.374475, y: 9.9075985}
   m_EdgeRadius: 0
 --- !u!50 &1388727717
 Rigidbody2D:
@@ -16585,7 +16583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417965415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.18, y: -6.24, z: 0.35666}
+  m_LocalPosition: {x: 21.18, y: -6.08, z: 0.35666}
   m_LocalScale: {x: 1.6776631, y: 0.7305494, z: 1}
   m_Children: []
   m_Father: {fileID: 1184099093}
@@ -16673,7 +16671,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.45283318, y: -4.4708767}
+  m_Offset: {x: -0.45283318, y: -4.365681}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -16684,7 +16682,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.994335, y: 9.958244}
+  m_Size: {x: 17.994335, y: 10.168635}
   m_EdgeRadius: 0
 --- !u!1 &1419655947
 GameObject:
@@ -16721,7 +16719,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -16762,8 +16760,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
@@ -16938,8 +16936,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 1
   stop_dist: 20
   retreat_dist: 10
@@ -17827,8 +17825,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -17844,8 +17842,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -18199,8 +18197,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 1
   stop_dist: 20
   retreat_dist: 10
@@ -18419,8 +18417,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -18602,8 +18600,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1615915542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18794,8 +18792,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63e23a0ef1a81c5478f74922d1da2226, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   moveSpeed: 10
   jumpp: 15
   left: 97
@@ -19252,7 +19250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747234747}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.03, y: -10.03, z: -6.77063}
+  m_LocalPosition: {x: -18.38, y: -14.84, z: -6.77063}
   m_LocalScale: {x: 0.781966, y: 0.81991845, z: 1}
   m_Children:
   - {fileID: 830110402}
@@ -19270,8 +19268,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 0
   stop_dist: 20
   retreat_dist: 10
@@ -19424,8 +19422,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 1
   stop_dist: 20
   retreat_dist: 10
@@ -19673,8 +19671,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: The plague was mainly spread through fleas carried by rats.
 --- !u!58 &1778000996
 CircleCollider2D:
@@ -20329,8 +20327,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
   m_RaycastTarget: 1
@@ -20518,8 +20516,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: Which form of the plague affected a victims lungs?  A) Bubonic  B)Pneumonic  C)Septicaemic
 --- !u!58 &1897652880
 CircleCollider2D:
@@ -20645,7 +20643,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.45283318, y: -4.5143204}
+  m_Offset: {x: -0.45283318, y: -4.4091253}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20656,7 +20654,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.994335, y: 9.871357}
+  m_Size: {x: 17.994335, y: 10.081747}
   m_EdgeRadius: 0
 --- !u!50 &1900731640
 Rigidbody2D:
@@ -21029,7 +21027,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.2644286, y: -4.372433}
+  m_Offset: {x: 1.2644286, y: -4.2981725}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -21040,7 +21038,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.514409, y: 10.155135}
+  m_Size: {x: 12.514409, y: 10.303657}
   m_EdgeRadius: 0
 --- !u!50 &1919648192
 Rigidbody2D:
@@ -21360,8 +21358,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf517733981837b479b4e03b99bf5042, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   dialogue: Three types of plague were spread during this time period. Bubonic (skin),
     Pnemonic (lungs) and Septacaemic (blood).
 --- !u!58 &1959611676
@@ -21825,7 +21823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027165785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2, y: -3.9, z: -6.77063}
+  m_LocalPosition: {x: 62.48, y: -16.6, z: -6.77063}
   m_LocalScale: {x: 0.799994, y: 0.8196693, z: 1}
   m_Children:
   - {fileID: 1014553011}
@@ -21843,8 +21841,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 231bb32949e9c644596e868afd398b8c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   speed: 1
   stop_dist: 20
   retreat_dist: 10
@@ -22756,8 +22754,8 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 12bea7597e7fec549bcc6fb1e7bf60e4, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2114215207
 GameObject:
   m_ObjectHideFlags: 0
